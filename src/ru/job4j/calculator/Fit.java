@@ -8,7 +8,7 @@ public class Fit {
     }
 
     public static double womanWeight(short height1) {
-        double rsl = (167-100) * 1.15;
+        double rsl = (167-110) * 1.15;
         return rsl;
     }
 
