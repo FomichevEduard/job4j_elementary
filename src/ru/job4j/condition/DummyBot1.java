@@ -1,6 +1,6 @@
 package ru.job4j.condition;
 
-public class DummyBot {
+public class DummyBot1 {
 
     public static String answer(String question) {
         String rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
@@ -15,10 +15,11 @@ public class DummyBot {
     }
 
     public static void main(String[] args) {
-        String rsl = DummyBot.answer("Привет, Бот");
+        String rsl = DummyBot1.answer("Привет, Бот");
         System.out.println(rsl);
-        rsl = DummyBot.answer("Пока.");
+        rsl = DummyBot1.answer("Пока.");
         System.out.println(rsl);
     }
 }
+
 
