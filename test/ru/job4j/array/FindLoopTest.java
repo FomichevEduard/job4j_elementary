@@ -16,7 +16,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHasLength5Then0() {
+    public void whenArrayHasLength3Then2() {
         int[] input = new int[] {4, 10, 3, 1};
         int value = 3;
         int result = FindLoop.indexOf(input, value);
