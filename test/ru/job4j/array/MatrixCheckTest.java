@@ -7,13 +7,13 @@ import static org.junit.Assert.assertThat;
 public class MatrixCheckTest {
 
     @Test
-    public void whenHasMonoHorizontal() {
+    public void whenHasMonoVertical() {
         char[][] input = {
-                {' ', ' ', ' '},
-                {'X', 'X', 'X'},
-                {' ', ' ', ' '},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
         };
-        boolean result = MatrixCheck.monoHorizontal(input, 1);
+        boolean result = MatrixCheck.monoVertical(input, 2);
         assertThat(result, is(true));
     }
 }
